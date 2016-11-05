@@ -1,0 +1,138 @@
+.container-query {
+	background-color: #ffffff;
+	margin-top: 30px;
+}
+
+.container-query-new {
+  	margin-top:95px;
+	background-color: #ffffff;
+}
+
+.container-query-large {
+	margin-top:125px;
+	background-color: #ffffff;
+}
+
+.container-query {
+	background-color: #ffffff;
+	margin-top: 30px;
+}
+
+.div-query {
+	width: 70%;
+	float: left;
+}
+
+.tbl-query td {
+	padding: 5px 0px;
+}
+
+.div-btn-query {
+	width: 30%;
+	float: right;
+	text-align: center;
+}
+
+.btn-query {
+	width: 100%;
+}
+.btn-query-beside {
+	margin-top: 10%;
+	width: 180px;
+}
+.btn-query-half {
+	margin-top: 7%;
+	margin-right: 15px;
+	width: 80px;
+}
+
+.editor-box-input {
+	width: 70%;
+}
+
+.editor-box-checkbox {
+	width: 20px;
+}
+
+.td-right {
+	border-right: solid 1px #ccc;
+}
+
+.tr-list-content {
+	border: solid 2px #8BD2FF;
+	height: 40px;
+}
+
+.tbl-list {
+	width: 100%;
+	float: left;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+
+.div-txt {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.div-page-block1, .div-page-block2 {
+	border: solid 1px #aaa;
+	width: 35px;
+	height: 35px;
+	float: left;
+}
+/* begin of css for pagination */
+.div-page-center {
+	text-align: center;
+}
+
+
+
+.create-link:hover {
+	cursor: pointer;
+}
+
+/* CSS for new ui style */
+.tbl-query{
+	width: 100%;
+	text-align: center;
+	margin: 20px 0px;
+}
+.tbl-query td{
+	padding: 5px 0px;
+}
+.tbl-query .td-txt{
+	text-align: left;
+	padding-left: 20px;
+}
+.tbl-query .td-right{
+	border: 0px;
+}
+.tbl-query .btn-query{
+	margin: 0;
+	width: 180px;
+}
+.tbl-query .row {
+	margin-bottom: 10px;
+}
+.form-div {
+	border-right: solid 1px #ccc;
+}
+/* End of CSS for new ui style */
+
+.div-float{
+	float: right; 
+	top: -35px; 
+	left: 10px; 
+	position: relative;	
+}
+
+.label-float{
+	background-color: red; 
+	color: #fff; 
+	width: 30px;
+	cursor: pointer;
+	text-align: center;
+}

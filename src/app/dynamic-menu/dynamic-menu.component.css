@@ -1,0 +1,75 @@
+.sidebar-toggle {
+    float: right !important;
+    width: 10px !important;
+}
+
+.nsidebar, .sidebar li.active, #page-wrapper {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.sidebar > li.active {
+    border-left: 4px solid #19aa8d;
+    background: #225382;
+    color: #ffffff;
+}
+.sidebar li {
+    position: relative;
+    display: block;
+}
+.dropdown-toggle {
+    display: inline !important;
+    float: none !important;
+}
+
+.sidebar > li > span {
+    color: #a7b1c2;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 14px 20px 14px 0px;
+    cursor: pointer;
+}
+ul.sidebar {
+    width: inherit;
+}
+
+ul.sidebar .sidebar-main .menu-icon {
+    padding-right: 10px !important;
+}
+.sidebar-main {
+    padding: 33px 8px;
+}
+.sidebar-main a {
+    color: #DFE4ED;
+}
+
+.clear {
+    display: block;
+    overflow: hidden;
+}
+.m-t-xs {
+    margin-top: 5px;
+}
+.block {
+    display: block;
+}
+.sidebar-main .text-muted {
+    color: #8095a8;
+}
+a {
+    cursor: pointer;
+}
+.menu-user {
+    line-height: 20px;
+    font-size: 14px;
+}
+.user-text {
+    padding-top: 10px !important;
+}
+.role-text {
+
+}
+.logo-element {
+    display: none;
+}

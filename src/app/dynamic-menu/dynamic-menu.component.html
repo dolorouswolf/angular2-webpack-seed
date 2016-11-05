@@ -1,0 +1,32 @@
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav" id="side-menu">
+            <li class="nav-header" style="padding-bottom: 12px;">
+                <div class="dropdown profile-element"> <span>
+                            <img alt="image" style="height: 60px;" src="../public/img/MKT_logo.png"/>
+                             </span>
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                        <span class="clear">
+                            <span class="block m-t-xs" style="padding-top: 10px;">
+                                <strong class="font-bold">[用户:<span id="userName">{{username}}</span>]</strong>
+                            </span>
+                            <span class="text-muted text-xs block">
+                                <span id="currentrole">{{userType}}</span>
+                            </span>
+                        </span>
+                    </a>
+                    <select id="myRoleSelect" style="display:none;"></select>
+                    <ul class="dropdown-menu animated fadeInRight m-t-xs" id="myRoleMenu">
+                    </ul>
+                </div>
+                <div class="logo-element">
+                    D+
+                </div>
+            </li>
+            <li *ngFor="let menu of availableMenus">
+                <a class="nav-label" [routerLink]="menu.url">{{menu.label}}</a>
+            </li>
+        </ul>
+    </div>
+
+</nav>

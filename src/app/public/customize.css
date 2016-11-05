@@ -1,0 +1,166 @@
+/*微软雅黑字体*/
+body, button, input, select, textarea, h1, h2, h3, h4, h5, h6, div, .my-font{
+    font-family: Microsoft YaHei, '宋体', Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif !important;
+}
+.my-font {
+    cursor:default;
+}
+.search-label {
+    padding: 8px 0 0 10px;
+}
+.inline-block {
+    display: inline-block;
+}
+.ng-pagination-control {
+    float: left;
+}
+.ng-pagination-div {
+    float: left;
+    line-height: 21px;
+}
+.del-btn {
+    cursor: pointer;
+}
+.modal .control-label {
+    padding-top: 7px
+}
+.label-primary {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 5px 5px 0;
+    padding: 5px;
+    display: inline-block;
+}
+.table th , .table{text-align: center !important;}
+
+.btn-create {
+    margin-top: 1em;
+    width: 100%;
+}
+.text-center .btn {
+     width: 8em;
+     margin: 0 2em 0 2em;
+ }
+.pagination > div {
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    color: inherit;
+    float: left;
+    line-height: 1.42857;
+    margin-left: -1px;
+    padding: 4px 10px;
+    position: relative;
+    text-decoration: none;
+}
+.fa {
+    width: 13px;
+}
+.form-horizontal {
+    margin-left: 10%;
+    width: 80%;
+}
+.fk-input, .vcolumn-input, .tag-view{
+	width:30% !important;
+}
+.control-label {
+    text-align: left !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.hidden {
+    display: none;
+}
+.v-center {
+    vertical-align: middle;
+}
+
+.creater-label {
+     line-height: 31px;
+ }
+
+.hidden-left {
+    float: left
+}
+.item-tmpl {
+    display: none;
+}
+
+.tooltip-inner {
+    text-align: left;
+}
+.div-row:hover {
+    cursor: pointer;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    height: 32px;
+}
+
+.navbar-static-side {
+    position: fixed;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ededed;
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background-color: #b5b5b5;
+}
+
+@-moz-keyframes pulse {
+    0% {
+        box-shadow: 0 0 1px #abe1fe;
+    }
+    50% {
+        box-shadow: 0 0 8px #abe1fe;
+    }
+    100% {
+        box-shadow: 0 0 1px #abe1fe;
+    }
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        box-shadow: 0 0 1px #abe1fe;
+    }
+    50% {
+        box-shadow: 0 0 8px #abe1fe;
+    }
+    100% {
+        box-shadow: 0 0 1px #abe1fe;
+    }
+}
+
+.pagination {
+    margin: 0 !important;
+}
+.page-div {
+    text-align: center;
+}
+.page-total {
+    display: inline-block;
+    line-height: 26px;
+    vertical-align: top;
+}
+.table-thin>tbody> tr > td, .table-thin>thead>tr>th{
+    padding: 0px;
+    vertical-align: middle;
+}
+table .disable {
+    background-color: #eeeeee;
+}
+.small-checkbox {
+    height: 20px;
+}
+form .ng-invalid , form .error{
+    border: 1px dotted #cc5965 !important;
+    background: #F2DEDE !important;
+}
+/* End of CSS new ui style */
